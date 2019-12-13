@@ -1,0 +1,34 @@
+h1 {
+    color: cornflowerblue;
+    
+}
+h7 {
+    color: crimson;
+}
+body {
+    background: white;
+    font: small-caps;
+    color: cornflowerblue;
+}
+table {
+    color: black;
+    line-height: 2;
+    
+}
+table {
+    border-collapse: collapse;
+  }
+  th {
+      height: 50px;
+  }
+  tr {
+      width: 75%;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+text {
+    text-align: center;
+}

@@ -1,16 +1,180 @@
 <html>
     <head>
-        <h1>Final Project</h1>
-        <h2>Target Audience</h2>
-        <h3>Students</h3>
-        <h2>Problem you will solve</h2>
-        <h3>Poor nutrition in student athletes</h3>
-        <h2>Why will it be useful</h2>
-        <h3>Many student athletes struggle to get enough protien and vital nutrients for peak performance</h3>
+        <link rel="stylesheet" href="final.css">
+        <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+        <button class="tablink" onclick="openPage('Home', this, 'red')">Your Results</button>
+        <button class="tablink" onclick="openPage('Home', this, 'red')">Meal Ideas</button>
     </head>
-
+    
     <body>
-        
+        <h1>Nutrition Calculator</h1>
+        <h7>A growing problem among student athletes today is improper nutrition by awnsering
+            this questionare we will show you some basic nutrition information that will help
+            you perform better.
+        </h7>
+        <p>
+        <label for="sex">Sex</label>
+        <select name="sex" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        </p>
+        <p><label for="weight">Weight</label>
+            <input type="text" name="weight" placeholder="Enter your weight">
+            <label for="kilograms">Kg.</label>
+        </p>
+        <p><label for="height">Height</label>
+            <input type="text" name="height" placeholder="Enter your height">
+            <label for="centimeters">Cm.</label>
+        </p>
 
+        <!-- <p><label for="Resting Metabolic Rate">Resting Metabolic Rate(RMR)</label>
+            <input type="text" name="rmr" placeholder="Enter your RMR">
+            <a href="https://www.omnicalculator.com/health/rmr">RMR Calculator</a>
+        </p> -->
+        <p><label for="I am ...">I am ...</label>
+            <select name="level">
+                <option value="in the gym most days">in the gym most days</option>
+                <option value="performing intense workouts nearly every day">performing intense workouts nearly everyday</option>
+                <option value="athlete in training"> an athlete in training</option>
+            </select>
+        </p>
+        <button id="submit">Submit this Form</button>
+        <table class="table" id="grid">
+                <thead>
+                  <tr>
+                    <th data-type="string">Nutrients</th>
+                    <th data-type="number">Grams</th>
+                    <th data-type="number">Calories</th>
+                    <th data-type="number">Percent</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Protiens</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>Carbohydrates</td>
+                    <td><input type="text"></td>
+                    <td></td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                      <td>Fat</td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td>Total</td>
+                      <td><input type="text"></td>
+                      <td>100</td>
+                  </tr>
+                </tbody>
+              </table>
+
+        <h3>Meal Ideas</h3>
+        <h7>Nutrients are written calories/carbs/protien/fat.</h7>
+        <p>
+            <h4>Breakfast = 459/89g/13g/7g</h4>
+            <p></p>
+            ¾ cup oats
+            </p><p>
+            ½ cup unsweetened almond milk
+            </p><p>
+            1 banana
+            </p><p>
+            1 tablespoon maple syrup
+            </p><p>
+            1 teaspoon cinnamon
+            </p>
+        </p>
+        <p class="text">
+            <h4>Lunch = 414/53g/4g/18g</h4>
+            <p>
+            1 cup minestrone soup
+            </p><p>
+            Veggie sandwich: 2 slices whole grain bread, 
+            </p><p>
+            1 ounce sliced avocado, ¼ cup fresh spinach, 
+            </p><p>
+            ½ cup sprouts and 2 tablespoons salsa
+            </p>
+        </p>
+        <p>
+            <h4>Dinner = 340/30g/33g/10g</h4>
+            <p>
+            4 ounces grilled chicken
+            </p><p>
+            1 cup curry-spiced steamed broccoli
+            </p><p>
+            1 medium baked sweet potato, 
+            </p><p>
+            seasoned with 1 teaspoon cinnamon and
+            </p><p>
+            ½ tablespoon coconut oil
+            </p>
+        </p>
+        <p class="test">
+            <h4>Snacks</h4>
+            <p>
+            Cookies & Cream Quest Protein Bar= 180/22g/21g/7g
+            </p><p>
+            1 medium apple and 2 tablespoons maple almond butter= 272/27g/6g/17g
+            </p>
+        </p>
+        <p class="text"> 
+            <h4>Workout Fuel</h4>
+            <p>
+            1 packet GU Chocolate Outrage = 100/20g/0g/2g
+            </p><p>
+            1 scoop ARO Natural Chocolate Whey Protein Complex = 200/12g/20g/7g
+            </p><p>
+            1 Strawberry-Lemonade Nuun Tab = 4/0g/0g/0g
+            </p>
+        </p>
     </body>
+    <script src="final.js"></script>
+    <!-- <table class="table" id="grid">
+            <thead>
+              <tr>
+                <th data-type="string">Nutrients</th>
+                <th data-type="number">Grams</th>
+                <th data-type="number">Calories</th>
+                <th data-type="number">Percent</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Protiens</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>Carbohydrates</td>
+                <td><input type="text"></td>
+                <td></td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                  <td>Fat</td>
+                  <td><input type="text"></td>
+                  <td><input type="text"></td>
+                  <td><input type="text"></td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td>Total</td>
+                  <td><input type="text"></td>
+                  <td>100</td>
+              </tr>
+            </tbody>
+          </table> -->
+    
+          
 </html>
