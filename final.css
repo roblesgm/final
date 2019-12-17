@@ -1,25 +1,36 @@
 h1 {
     color: cornflowerblue;
+    text-align: center;
+    font-size: xxx-large;
     
 }
-h7 {
-    color: crimson;
+h3 {
+    color: cornflowerblue;
+    font-size: xxx-large;
+    text-align: center;
+}
+h5 {
+    font-size: large;
+}
+form {
+    text-align: left;
 }
 body {
-    background: white;
+    background: whitesmoke;
     font: small-caps;
     color: cornflowerblue;
 }
 table {
     color: black;
     line-height: 2;
-    
 }
-table {
+.table {
     border-collapse: collapse;
+
   }
   th {
       height: 50px;
+      width: 100px;
   }
   tr {
       width: 75%;
@@ -29,6 +40,18 @@ table {
     border: 1px solid black;
     text-align: center;
   }
-text {
+.center1 {
     text-align: center;
+}
+.center2 {
+    text-align: right;
+}
+.center3 {
+    text-align: left;
+}
+.center4 {
+    text-align: center;
+}
+.center5 {
+    text-align: right;
 }
