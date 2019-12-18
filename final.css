@@ -1,11 +1,11 @@
 h1 {
-    color: cornflowerblue;
+    color: rgb(255, 107, 49);
     text-align: center;
     font-size: xxx-large;
     
 }
 h3 {
-    color: cornflowerblue;
+    color: rgb(255, 107, 49);
     font-size: xxx-large;
     text-align: center;
 }
@@ -18,7 +18,7 @@ form {
 body {
     background: whitesmoke;
     font: small-caps;
-    color: cornflowerblue;
+    color: rgb(255, 107, 49);
 }
 table {
     color: black;
@@ -26,7 +26,6 @@ table {
 }
 .table {
     border-collapse: collapse;
-
   }
   th {
       height: 50px;
@@ -42,16 +41,25 @@ table {
   }
 .center1 {
     text-align: center;
+    font-family: Georgia, serif;
 }
 .center2 {
-    text-align: right;
+    text-align: center;
+    font-family: Georgia, serif;
 }
 .center3 {
-    text-align: left;
+    text-align: center;
+    font-family: Georgia, serif;
 }
 .center4 {
     text-align: center;
+    font-family: Georgia, serif;
 }
 .center5 {
-    text-align: right;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+.h8{
+    font-size: large;
+    text-align: center;
 }

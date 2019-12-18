@@ -256,5 +256,29 @@ go.onclick = function() {
     }
 }
 
+// function openpage(pageName, elemnt, color) {
+//     let i, tabcontent, tablinks;
+//     tabcontent = document.getElementsByClassName("tabcontent");
+//     for (i = 0; i < tabcontent.length; i++) {
+//         tabcontent[i].style.display = "none";
+//     }
+//     tablinks = document.getElementsByClassName("tablink");
+//     for (i = 0; i < tablinks.length; i++) {
+//         tablinks[i].backgroundColor = "";
+//     }
+//     // specific tab content
+//     document.getElementById(pageName).style.display = "block";
+//     elemnt.style.backgroundColor = color;   
+// }
+//     let myNodelist = document.getElementsByTagName("LI");
+// let i ;
+// for (i = 0; i < myNodelist.length; i++) {
+//     let span = document.createElement("SPAN");
+//     // allows it
+//     let txt = document.createTextNode("\u00D7");
+//     span.className = "close";
+//     span.appendChild(txt);
+//     myNodelist[i].appendChild(span);
+// }
 
 // document.addEventListener("DOMContentLoaded", ready);
